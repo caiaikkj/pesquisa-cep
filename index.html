@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CEP</title>
+</head>
+<body>
+    <div class="card">
+        <div class="container">
+            <header>
+                <h2 class="titulo1">Pesquisa por CEP</h2>
+            </header>
+            <label for="pesquisa" class="pesquisa">Digite o CEP desejado</label>
+            <input type="number" id="cep" placeholder="Buscar CEP...">
+            <div class="botao">
+                <button onclick="teste() ">CONSULTAR</button>
+                <button onclick="limpar() " class="limpar">LIMPAR</button>
+            </div>
+        </div>
+        <div class="tabela">
+            <table class="table">
+                <tr>
+                    <td>RUA:</td>      <td id="rua"></td>
+                </tr>
+                <tr>
+                    <td>BAIRRO:</td>   <td id="bairro"></td>
+                </tr>
+                <tr>
+                    <td>CIDADE:</td>   <td id="cidade"></td>
+                </tr>
+                <tr>
+                    <td>ESTADO:</td>   <td id="estado"></td>
+                </tr>
+            </table>
+        </div>
+        
+    </div>
+</body>
+<script src="scripts.js" ></script>
+</html>

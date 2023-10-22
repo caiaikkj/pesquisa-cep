@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #6200ee;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    border: solid 2px #6200ee;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10% 25%;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px #1212126e;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo1{
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+.pesquisa{
+    margin-bottom: 1em;
+    color: #3700b3;
+}
+
+input{
+    margin-top: 1em;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 15px;
+    box-shadow: 0px 0px 10px #1212123b;
+}
+
+button{
+    margin-top: 2em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #121212;
+    padding: 10px 10px;
+    border: solid 2px #bb86fc;
+    border-radius: 25px;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px #1212123b;
+}
+
+.limpar{
+    color: #fff;
+    background-color: #cf6679;
+    border: solid 2px #b00020;
+    transition: 0.4s;
+    box-shadow: 0px 0px 10px #1212123b;
+}
+
+.limpar:hover{
+    cursor: pointer;
+    background-color: #b00020;
+}
+
+button:hover:not(.limpar){
+    color: #fff;
+    background-color: #bb86fc;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.tabela{
+    font-weight: 500;
+    font-size: 16px;
+    margin: 1em 0;
+}
+
+.tabela #rua, #bairro, #cidade, #estado{
+    color: #121212;
+    padding: 2px;
+    float: right;
+}
+
+table{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
