@@ -7,11 +7,17 @@
     <title>CEP</title>
 </head>
 <body>
+    
+    <!--Card com o conteúdo-->
+    
     <div class="card">
         <div class="container">
             <header>
                 <h2 class="titulo1">Pesquisa por CEP</h2>
             </header>
+            
+            <!--Label e botão de pesquisa-->
+            
             <label for="pesquisa" class="pesquisa">Digite o CEP desejado</label>
             <input type="number" id="cep" placeholder="Buscar CEP...">
             <div class="botao">
@@ -19,6 +25,9 @@
                 <button onclick="limpar() " class="limpar">LIMPAR</button>
             </div>
         </div>
+        
+        <!--Tabela de resultados-->
+        
         <div class="tabela">
             <table class="table">
                 <tr>
@@ -35,8 +44,14 @@
                 </tr>
             </table>
         </div>
+
+        <!--Fim da tabela-->
         
     </div>
+
+    <!--Fim da div de card-->
+
+    
 </body>
 <script src="scripts.js" ></script>
 </html>
